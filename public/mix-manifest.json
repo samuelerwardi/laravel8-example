@@ -1,4 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/jquery-3.6.1.js": "/js/jquery-3.6.1.js",
+    "/js/custom.js": "/js/custom.js"
 }

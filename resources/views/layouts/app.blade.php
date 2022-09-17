@@ -80,4 +80,9 @@
         </main>
     </div>
 </body>
+
 </html>
+<script src="{{ asset('js/custom.js') }}"></script>
+
+@include('javascript')
+

@@ -14,3 +14,7 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sourceMaps();
+
+mix.scripts("resources/js/jquery-3.6.1.js*", "public/js/jquery-3.6.1.js");
+// mix.scripts("resources/js/datatables.js*", "public/js/datatables.js");
+mix.scripts("resources/js/custom.js*", "public/js/custom.js");

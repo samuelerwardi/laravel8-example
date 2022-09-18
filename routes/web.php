@@ -24,3 +24,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/todo', [App\Http\Controllers\TodoController::class, 'index'])->name('todo.index');
+
+Route::get('/format-currency', [App\Http\Controllers\PageController::class, 'format_currency'])->name('template.index');

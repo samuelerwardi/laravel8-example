@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/template', [App\Http\Controllers\PageController::class, 'index'])->name('template.index');
+
+Route::get('/format-currency', [App\Http\Controllers\PageController::class, 'format_currency'])->name('template.index');

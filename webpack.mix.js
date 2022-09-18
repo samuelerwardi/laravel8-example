@@ -18,3 +18,5 @@ mix.js('resources/js/app.js', 'public/js')
 mix.scripts("resources/js/jquery-3.6.1.js*", "public/js/jquery-3.6.1.js");
 // mix.scripts("resources/js/datatables.js*", "public/js/datatables.js");
 mix.scripts("resources/js/custom.js*", "public/js/custom.js");
+
+mix.scripts("resources/css/jquery.dataTables.css", "public/css/jquery.dataTables.css")

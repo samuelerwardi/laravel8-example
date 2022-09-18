@@ -2,11 +2,12 @@
     © Copyright 2022 Laravel Development
 </div>
 
-<script src="{{ asset('js/jquery-3.6.1.js') }}"></script>
+<!-- <script src="{{ asset('js/jquery-3.6.1.js') }}"></script> -->
 
-<!-- <script src="{{ asset('js/dataTables.bootstrap.min.js') }}"></script> -->
+<script src="{{ asset('js/datatables.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         console.log("footer")
+        $(".datatable-table-list").DataTable();
     });
 </script>

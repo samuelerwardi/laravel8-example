@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container wrapper">
-  <table class="table table-bordered table-hover" cellspacing="0" width="100%">
+  <table class="table table-bordered table-hover datatable-table-list" cellspacing="0" width="100%">
       <thead>
           <tr>
               <th class="col-md-2">Name</th>
@@ -13,7 +13,7 @@
               <th class="col-md-2">Salary</th>
           </tr>
       </thead>
-      <tfoot>
+      {{-- <tfoot>
           <tr>
               <th>Name</th>
               <th>Position</th>
@@ -22,7 +22,7 @@
               <th>Start date</th>
               <th>Salary</th>
           </tr>
-      </tfoot>
+      </tfoot> --}}
       <tbody>
           <tr>
               <td>Airi Satou</td>
